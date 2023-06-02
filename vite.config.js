@@ -9,7 +9,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       "/api": {
-        target: "http://mobile.e-muraad.com",
+        target: "https://mobile.e-muraad.com",
         changeOrigin: true,
       },
     },
